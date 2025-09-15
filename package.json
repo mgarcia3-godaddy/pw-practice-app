@@ -9,8 +9,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "pageObjects-chrome": "npx playwright test 001-usePageObjects.spec.ts --project=chromium",
-    "pageObjects-firefox": "npx playwright test 001-usePageObjects.spec.ts --project=firefox",
+    "pageObjects-chrome": "npx playwright test usePageObjects.spec.ts --project=chromium",
+    "pageObjects-firefox": "npx playwright test usePageObjects.spec.ts --project=firefox",
     "pageObjects-all": "npm run pageObjects-chrome && npm run pageObjects-firefox"
   },
   "overrides": {
